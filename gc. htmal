@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Store</title>
+        <background-image:_ url("n76".jpg') </background>
+	<link rel="gc.htmlstylesheet" href="lanishstyles.css">
+</head>
+<<body>
+<style>
+p {
+  
+}
+</style>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="pu.html">Home</a></li>
+                <li><a href="file:///C:/Users/HP/Desktop/nn/1246.htmal"> my order</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href=<"file:///C:/Users/HP/Desktop/nn/Address.htmal">Shipping Address</a></li>
+			
+				<a/>
+            </ul>
+            <div class="search-container">
+                <input type="text" id="search-bar" placeholder="Search...">
+                <button onclick="searchProducts()">Search</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Welcome to Our E-commerce Store</h1>
+            <p>Find the best products here!</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <style>
+        .product-container {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .product-images {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .product-image {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+        }
+        .product-details {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="product-container">
+        <h1>mega offer</h1>
+        <div class="product-images">
+            <img src="es2.jpg" alt="Product " class="product-image">
+            <img src="es3.jpg" alt="Product Image 2" class="product-image">
+            <img src="es.jpg" alt="Product Image 3" class="product-image">
+        
+            <img src="es4.jpg" alt="Product Image 5" class="product-image">
+        </div>
+        <div class="product-details">
+            <p>Price: $99.99</p>
+            <p>Description: This is a sample product description. Add more details here.</p>
+        </div>
+    </div>
+</body><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Product Selection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #444;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        main {
+            padding: 20px;
+        }
+        .product {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 20px;
+            background: #fff;
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .cart {
+            background: #fff;
+            padding: 15px;
+            margin-top: 20px;
+        }
+        .cart table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .cart th, .cart td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        .cart th {
+            background: #f4f4f4;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        form action="upload.php" method="post" enctype="multipart/form-data">
+        <label for="imageUpload">Choose a photo to upload:</label>
+        <input type="file" id="imageUpload" name="image" accept="image/*">
+        <input type="submit" value="Upload Photo">
+    </form>
+</body>
+</html>
+    </style>
+</head>
+<body>
+    <header>
+        <h1>E-Commerce Shopping</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#cart">Cart</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="products">
+            <h2>Products</h2>
+            <div class="product">
+                <h3>Product 1</h3>
+                <img src="product1.jpg" alt="Product 1">
+                <p>Price: $10</p>
+                <form method="post" action="add_to_cart.php">
+                    <input type="hidden" name="product_id" value="1">
+                    <label for="quantity1">Quantity:</label>
+                    <input type="number" id="quantity1" name="quantity" min="1" value="1">
+                    <button type="submit">Add to Cart</button>
+                </form>
+         
+    </main>
+    <footer>
+        <p>&copy; 2025 E-Commerce Shopping</p>
+    </footer>
+</body>
+</html>
+</html>
+ <img src="es2.jpg" alt="Product " class="product-image">
+            <img src="es3.jpg" alt="Product Image 2" class="product-image">
+            <img src="es.jpg" alt="Product Image 3" class="product-image">
+        <div class="img-slider">
+    <img src="https://images.pexels.com/photos/6347888/pexels-photo-6347888.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" class="img" />
+    <img src="https://images.pexels.com/photos/3962294/pexels-photo-3962294.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" class="img" />
+    <img src="https://images.pexels.com/photos/2292953/pexels-photo-2292953.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" class="img" />
+    <img src="https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" class="img" />
+    <img src="https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" class="img" />
+</div>
